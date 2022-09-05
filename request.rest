@@ -1,0 +1,23 @@
+### TEST API
+### Get All Items
+GET http://localhost:5000/api/v1/items
+
+### Get Single Item by ID
+GET http://localhost:5000/api/v1/items/1
+
+### Create New Item
+POST http://localhost:5000/api/v1/items
+Content-Type: application/json
+
+{
+}
+
+### Update Item
+PUT http://localhost:5000/api/v1/items/1
+Content-Type: application/json
+
+{
+}
+
+### Delete Item
+DELETE http://localhost:5000/api/v1/items/2

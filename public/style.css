@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2.5rem;
+  background: #8fc63f;
+  color: #43463b;
+}
+
+h1 {
+  font-size: 5rem;
+  text-align: center;
+}
+
+a {
+  font-size: 3rem;
+  text-align: center;
+  text-decoration: none;
+  background: #43463b;
+  color: white;
+  padding: 1.5rem 2rem;
+  border-radius: 1rem;
+}
